@@ -1,0 +1,31 @@
+@import './variables';
+@import "~bootstrap/scss/bootstrap.scss";
+
+
+.rocketSection{
+    padding: 2rem;
+    ul.rocketList{
+        list-style: none;
+    
+        li{
+            list-style: none;
+            h1{
+                font-size: 20px;
+                padding: .5rem 0;
+            }
+            p{
+                font-size: 1rem;
+                font-weight: 500;
+                padding: .5rem 0;
+                width: 50%;
+            }
+
+            img{
+                width: 100%;
+                max-width: 30%;
+                border-radius: 10px;
+                margin: 1rem 0;
+            }
+        }
+    }
+}
